@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сербия - Жемчужина Балкан</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Side Navigation -->
+<div class="side-nav">
+    <div class="nav-dot active" data-section="about"></div>
+    <div class="nav-dot" data-section="culture"></div>
+    <div class="nav-dot" data-section="places"></div>
+    <div class="nav-dot" data-section="bajina-basta"></div>
+    <div class="nav-dot" data-section="food"></div>
+    <div class="nav-dot" data-section="facts"></div>
+</div>
+
+<!-- Header -->
+<header>
+    <nav class="container">
+        <div class="logo gold-glow">🇷🇸 Сербия</div>
+        <ul class="nav-links">
+            <li><a href="#about" class="hover-underline">О стране</a></li>
+            <li><a href="#culture" class="hover-underline">Культура</a></li>
+            <li><a href="#places" class="hover-underline">Достопримечательности</a></li>
+            <li><a href="#bajina-basta" class="hover-underline">Байина Башта</a></li>
+            <li><a href="#food" class="hover-underline">Кухня</a></li>
+            <li><a href="#facts" class="hover-underline">Факты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero active">
+    <div class="container">
+        <div class="hero-content fade-up visible">
+            <h1 class="gold-glow">Сербия</h1>
+            <p>Жемчужина Балкан с богатой историей, культурой и гостеприимными людьми.</p>
+            <a href="#about" class="cta-button btn-premium"><i class="fas fa-compass"></i> Исследовать Сербию</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">О Сербии</h2>
+        <p class="section-subtitle fade-up">Страна в самом сердце Балкан с уникальной культурой</p>
+        <div class="about-content">
+            <div class="about-text fade-up">
+                <p>Сербия — страна контрастов: живописные горы, древние монастыри, современные города. Столица — Белград, исторический центр на слиянии рек Дунай и Сава.</p>
+                <p><strong>Природа:</strong> Копаоник, Тара, Златибор — идеальны для туризма, треккинга и зимних видов спорта.</p>
+                <p><strong>Население:</strong> ~6.7 млн человек, сербы составляют 83%.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card card-3d fade-up"><div class="stat-number">8.7M</div><div class="stat-label">Население</div></div>
+                    <div class="stat-card card-3d fade-up"><div class="stat-number">88K км²</div><div class="stat-label">Территория</div></div>
+                    <div class="stat-card card-3d fade-up"><div class="stat-number">1150+</div><div class="stat-label">Лет истории</div></div>
+                    <div class="stat-card card-3d fade-up"><div class="stat-number">5</div><div class="stat-label">Объектов ЮНЕСКО</div></div>
+                </div>
+            </div>
+            <div class="about-image fade-up">
+                <img src="images/serbia.jpg" alt="Сербия" class="responsive-image card-3d">
+                <div class="image-caption">Белград — столица Сербии</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Culture Section -->
+<section id="culture" class="culture section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">Культура и традиции</h2>
+        <p class="section-subtitle fade-up">Музыка, танцы, фестивали, религия</p>
+        <div class="culture-grid">
+            <div class="culture-card card-3d fade-up"><i class="fas fa-music"></i><h3>Музыка</h3><p>От эпических народных баллад до современной поп-музыки.</p></div>
+            <div class="culture-card card-3d fade-up"><i class="fas fa-dancing"></i><h3>Танцы</h3><p>Коло — традиционный круговой танец, символ единства и веселья.</p></div>
+            <div class="culture-card card-3d fade-up"><i class="fas fa-glass-cheers"></i><h3>Фестивали</h3><p>EXIT Festival, Гусие, BELGRADE BEER FEST — крупнейшие музыкальные события.</p></div>
+            <div class="culture-card card-3d fade-up"><i class="fas fa-church"></i><h3>Религия</h3><p>Православные монастыри с уникальными фресками, культурное наследие ЮНЕСКО.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Places Section -->
+<section id="places" class="places section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">Достопримечательности</h2>
+        <p class="section-subtitle fade-up">Самые красивые места Сербии</p>
+        <div class="places-grid">
+            <div class="place-card card-3d fade-up">
+                <div class="place-image"><img src="images/bl5ets5ir20wkk8co04ko0koo.jpg" alt="Белградская крепость" class="responsive-image"></div>
+                <div class="place-card-content"><h3>Белградская крепость</h3><p>Верхний и Нижний город, парк Калемегдан, музеи.</p></div>
+            </div>
+            <div class="place-card card-3d fade-up">
+                <div class="place-image"><img src="images/Manastir.jpg" alt="Монастырь Жича" class="responsive-image"></div>
+                <div class="place-card-content"><h3>Монастырь Жича</h3><p>Духовный центр сербского православия, XIV век.</p></div>
+            </div>
+            <div class="place-card card-3d fade-up">
+                <div class="place-image"><img src="images/487986_74_0_950_657_1920x0_80_0_0_7f3bd19a6132d49d55b308df0c4628cc.jpg" alt="Дьявольский город" class="responsive-image"></div>
+                <div class="place-card-content"><h3>Дьявольский город</h3><p>Природный феномен из 202 земляных пирамид необычной формы.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bajina Basta Section -->
+<section id="bajina-basta" class="bajina-basta section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">Байина Башта</h2>
+        <p class="section-subtitle fade-up">Жемчужина западной Сербии у подножия горы Тара</p>
+        <div class="bajina-content fade-up">
+            <div class="bajina-text">
+                <p><strong>Байина-Башта</strong> — очаровательный город с монастырем Рача XIV века и Домом на Дрине.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Food Section -->
+<section id="food" class="food section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">Сербская кухня</h2>
+        <div class="food-grid">
+            <div class="food-card card-3d fade-up"><img src="images/0c4c9b447e34d36739a6d15da05203d2.jpeg" alt="Плескавица" class="responsive-image"><h3>Pljeskavica</h3><p>Гигантская котлета с лепешкой.</p></div>
+            <div class="food-card card-3d fade-up"><img src="images/evapi-gebakken-worstjes_33527_xl.jpg" alt="Чевапы" class="responsive-image"><h3>Ćevapi</h3><p>Мясные колбаски с сомуном и каймаком.</p></div>
+            <div class="food-card card-3d fade-up"><img src="images/2a87265d2c1904773fa1c096401f03b2.jpg" alt="Айвар" class="responsive-image"><h3>Ajvar</h3><p>Икра из запеченных перцев.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Facts Section -->
+<section id="facts" class="facts section-transition">
+    <div class="container">
+        <h2 class="section-title fade-up">Факты и экономика</h2>
+        <div class="facts-grid">
+            <div class="fact-card card-3d fade-up"><i class="fas fa-landmark"></i><h3>Столица</h3><p>Белград — один из древнейших городов Европы.</p></div>
+            <div class="fact-card card-3d fade-up"><i class="fas fa-money-bill-wave"></i><h3>Валюта</h3><p>Сербский динар (RSD), 1€ ≈ 117 RSD.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-title gold-glow">Сербия</div>
+            <div class="footer-subtitle">Страна с богатой историей и сердцем <span class="pulse">🇷🇸</span></div>
+            <p style="color:#d4af37;">Слава Сербии! Živela Srbija!</p>
+            <div class="credits">
+                <p><strong>Личный проект Generallisto</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
